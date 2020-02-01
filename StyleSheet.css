@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: grey;
+}
+/* banner */
+.banner {
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 0px;
+  border-bottom: 10px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: red;
+  background-color: black;
+  color: white;
+  padding-top: 45px;
+}
+
+.bannerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 15%;
+  padding-bottom: 30px;
+  transition: all .6s;
+}
+
+.bannerimg:hover {
+  transform: scale(1.7) rotate(720deg);
+}
+
+/* nav */
+
+.mainnav {
+  width: 100%;
+  background-color: red;
+  position: fixed;
+  text-align: center;
+  padding: 0;
+  margin-left: 0;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: black;
+  align-items: center;
+}
+
+.navbar {
+  list-style-type: none;
+  align-items: center;
+  padding-top: 0px;
+}
+
+.navbar li {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 0;
+  float: left;
+  padding-bottom: 0px;
+  align-items: center;
+}
+
+.navbar li a {
+  display: inline-block;
+  color: white;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  background-color: black;
+}
+
+/* content */
+
+.About {
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3em;
+  background: linear-gradient(black, red);
+  color: white;
+  margin-top: 15px;
+  padding-top: 25px;
+  border-radius: 10px;
+}
+
+.About p {
+  width: 70%;
+  text-align: center;
+  margin:auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.About a {
+  color: gold;
+  font-weight: bold;
+}
+
+.WhyIPlay {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3em;
+  background: linear-gradient(black, red);
+  color: white;
+  margin-top: 15px;
+  padding-top: 25px;
+}
+
+.WhyIPlay p {
+  width: 70%;
+  text-align: center;
+  margin:auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.WhyIPlay a {
+  color: gold;
+  font-weight: bold;
+}
+
+.WatchMePlay {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3em;
+  background: linear-gradient(black, red);
+  color: white;
+  margin-top: 15px;
+  padding-top: 25px;
+}
+
+.WatchMePlay p {
+  width: 75%;
+  text-align: center;
+  margin:auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.WatchMePlay h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.WatchMePlay h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.WatchMePlay a {
+  color: white;
+  font-weight: bold;
+}
+
+.Resources {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3em;
+  background: linear-gradient(black, red);
+  color: white;
+  margin-top: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Resources p {
+  width: 75%;
+  text-align: center;
+  margin:auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Resources h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Resources h3 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+
+.Resources h4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Resources a {
+  color: gold;
+  font-weight: bold;
+}
+
+.footer a {
+  margin-left: auto;
+  margin-right: auto;
+  color: gold;
+  font-weight: bold;
+}
+
+.footer p {
+  text-align: center;
+}
+
+#Link {
+  color: gold;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 38px;
+  padding-bottom: 15px;
+}
+
+@media (min-width: 481px) and (max-width: 1020px) {
+  .bannerimg {
+    width: 20%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bannerimg {
+    min-width: 24%;
+    max-width: 30%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 467px) {
+  .navbar li a {
+    font-size: .9em;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 389px) {
+  .navbar li a {
+    font-size: .8em;
+  }
+}
+
+@media (max-width: 349px) {
+  .navbar li a {
+    font-size: .65em;
+  }
+}
