@@ -83,7 +83,7 @@ html {
 /* content */
 
 .About {
-  width: 75%;
+  width: 98%;
   text-align: center;
   margin: auto;
   font-size: 1.3em;
@@ -91,7 +91,7 @@ html {
   color: white;
   margin-top: 15px;
   padding-top: 25px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .About p {
@@ -132,7 +132,7 @@ html {
 }
 
 .WatchMePlay {
-  width: 100%;
+  width: 98%;
   text-align: center;
   margin: auto;
   font-size: 1.3em;
@@ -140,6 +140,7 @@ html {
   color: white;
   margin-top: 15px;
   padding-top: 25px;
+  border-radius: 5px;
 }
 
 .WatchMePlay p {
