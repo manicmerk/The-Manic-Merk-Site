@@ -64,6 +64,7 @@ html {
   padding-right: 5px;
   margin-left: 0;
   float: left;
+  clear: right;
   padding-bottom: 0px;
   align-items: center;
 }
@@ -166,6 +167,10 @@ html {
   font-weight: bold;
 }
 
+.WatchMePlay a:hover {
+    color: gold;
+}
+
 .Resources {
   width: 100%;
   text-align: center;
@@ -174,8 +179,64 @@ html {
   background: linear-gradient(black, red);
   color: white;
   margin-top: 15px;
+  margin-bottom: 15px;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+
+.Websites {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3em;
+  background: linear-gradient(black, red);
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.FloatListContainer {
+    display: table;
+    border-spacing: 18px 0px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.FloatList {
+  width: 33.3%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3em;
+  background: linear-gradient(black, red);
+  color: white;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+  
+  display: table-cell;
+}
+
+.FloatList p{
+    width: 75%;
+  text-align: center;
+  margin:auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.FloatList a {
+     color: white;
+  font-weight: bold;
+}
+
+.FloatList a:hover {
+    color: gold;
 }
 
 .Resources p {
@@ -212,6 +273,7 @@ html {
   margin-right: auto;
   color: gold;
   font-weight: bold;
+  clear: both;
 }
 
 .footer p {
