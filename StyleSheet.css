@@ -3,9 +3,13 @@
   padding: 0;
 }
 
-body {
+.wrapper {
     width: 70%;
     margin: auto;
+}
+
+.move {
+
 }
 
 html {
@@ -43,11 +47,11 @@ html {
 /* nav */
 
 .mainnav {
-  width: 70%;
+  width: 100%;
   background-color: red;
   position: fixed;
   text-align: center;
-  padding: 0;
+  padding-left: 15%;
   margin-left: 0;
   border-top: 2px;
   border-bottom: 2px;
