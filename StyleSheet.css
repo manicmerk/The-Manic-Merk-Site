@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-body {
-    width: 70%;
-    margin: auto;
-}
-
 html {
   background-color: grey;
 }
@@ -43,7 +38,7 @@ html {
 /* nav */
 
 .mainnav {
-  width: 70%;
+  width: 100%;
   background-color: red;
   position: fixed;
   text-align: center;
@@ -89,7 +84,7 @@ html {
 /* content */
 
 .About {
-  width: 100%;
+  width: 98%;
   text-align: center;
   margin: auto;
   font-size: 1.3em;
@@ -122,7 +117,6 @@ html {
   color: white;
   margin-top: 15px;
   padding-top: 25px;
-  border-radius: 5px;
 }
 
 .WhyIPlay p {
@@ -139,7 +133,7 @@ html {
 }
 
 .WatchMePlay {
-  width: 100%;
+  width: 98%;
   text-align: center;
   margin: auto;
   font-size: 1.3em;
@@ -188,7 +182,6 @@ html {
   margin-bottom: 15px;
   padding-top: 25px;
   padding-bottom: 25px;
-  border-radius: 5px;
 }
 
 .Websites {
@@ -202,12 +195,11 @@ html {
   margin-bottom: 15px;
   padding-top: 25px;
   padding-bottom: 25px;
-  border-radius: 5px;
 }
 
 .FloatListContainer {
     display: table;
-    border-spacing: 5px 0px;
+    border-spacing: 18px 0px;
     width: 100%;
     margin-bottom: 15px;
 }
